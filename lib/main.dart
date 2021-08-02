@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:moviez/screens/home_page.dart';
+import 'package:moviez/presentation/journeys/home_page.dart';
 
 void main() {
   runApp(Moviez());
