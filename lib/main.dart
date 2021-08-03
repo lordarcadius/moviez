@@ -9,6 +9,8 @@ void main() {
   MovieRemoteDataSource dataSource = MovieRemoteDataSourceImpl(apiClient);
   dataSource.getTrending();
   dataSource.getPopular();
+  dataSource.getPlayingNow();
+  dataSource.getComingSoon();
 
   runApp(Moviez());
 }
